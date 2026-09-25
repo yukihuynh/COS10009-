@@ -1,0 +1,32 @@
+# quadratic-cos10009-demo
+
+This is a demo for COS10009 - Introduction to Programming - Swinburne University of Technology.
+
+## Installation
+
+```bash
+pip install quadratic-cos10009-demo
+```
+
+## Usage
+
+```python
+from quadratic import solve
+
+# Solve x^2 - 5x + 6 = 0
+x1, x2 = solve(1, -5, 6)
+print(x1, x2)    # 3.0  2.0
+```
+
+## Exceptions
+
+If the equation has no real roots, a `ValueError` is raised:
+
+```python
+from quadratic import solve
+
+try:
+    x1, x2 = solve(1, 0, 1)    # no real roots
+except ValueError as e:
+    print(e)                    # No real roots exist
+```

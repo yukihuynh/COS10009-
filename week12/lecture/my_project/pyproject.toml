@@ -1,0 +1,7 @@
+[project]
+name        = "quadratic-cos10009-demo"
+version     = "1.0.2"                      
+authors     = [{ name = "Trung Doan", email = "trungdoan@swin.edu.au" }]
+description = "A simple quadratic equation solver"
+readme      = "README.md"                
+license     = { text = "MIT" }
